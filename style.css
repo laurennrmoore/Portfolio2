@@ -1,8 +1,6 @@
 
 
-body{
-    scroll-behavior: smooth;
-}
+
 
 /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
@@ -16,13 +14,13 @@ body{
     --color-primary: #000000;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
-    --font-staat: 'Staatliches', cursive;
+    --font-staat: 'Merriweather', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
 
 /* global classes */
-.font-staat{
+.font-Merriweather{
     font: normal 400 18px var(--font-staat);
 }
 .font-os{
@@ -150,13 +148,6 @@ div > img {
 
 
 
-
-
-
-
-
-
-
 .Projects{
 margin-top: 15px;
 
@@ -165,27 +156,20 @@ margin-top: 15px;
 
 
 
-
-
-
 .Education{
-margin: 10 0 10 0px;  
+margin: 10 0 10 0;  
  
 
 }
 
 
 
-
-
 .Experience{
 
-margin: 10 0 10 0px;
-
+margin: 12 5 10 0px;
 
 
 }
-
 
 
 
@@ -195,17 +179,13 @@ margin-top: 10px;
 margin-bottom: 10px;
 margin-left: 40px;
 
-
 }
-
 
 
 
 .contact{
 margin-left: 40px;   
 text-align: left;
-font-family: 'Times New Roman', Times, serif;
-
     
 }
 
@@ -221,6 +201,101 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .card{
-    height: 200px;
+    height: 150px;
 }
+
+div > style{
+margin-right: 10px;
+
+}
+
+
+
+span#web-dev{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+
+
+
+span#itil{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+
+
+span#tech{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+
+
+span#biz-ana{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+
+
+
+span#sqa{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+    }
+    
+
+
+
+span#msj{
+display: flex;
+float: right;
+margin-right: 70px;
+}
+
+
+
+span#top-date {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+
+
+
+span#thrive-dates{
+    display: flex;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
+
+span#home-care-dates{
+    display: flex;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
+
+span#cincinnati-public{
+    display: flex;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+
+}
+
+
+span#hamilton-county{
+    display: flex;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
 
