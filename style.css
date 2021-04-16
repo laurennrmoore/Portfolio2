@@ -104,6 +104,7 @@ body{
     position: relative;
 }
 
+
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
@@ -141,11 +142,9 @@ div > img {
     justify-items:baseline;
   }
   
-  
-  
+   
 
 /* #site-main */
-
 
 
 .Projects{
@@ -155,7 +154,6 @@ margin-top: 15px;
 }
 
 
-
 .Education{
 margin: 10 0 10 0;  
  
@@ -163,15 +161,11 @@ margin: 10 0 10 0;
 }
 
 
-
 .Experience{
 
 margin: 12 5 10 0px;
 
-
 }
-
-
 
 
 .Resume{
@@ -180,7 +174,6 @@ margin-bottom: 10px;
 margin-left: 40px;
 
 }
-
 
 
 .contact{
@@ -194,18 +187,24 @@ text-align: left;
     display: block;
     margin: auto;
     margin-top: 5%;
+
 }
+
 
 .card-title{
     text-align: center;
+
 }
 
 .card{
     height: 150px;
+
 }
+
 
 div > style{
 margin-right: 10px;
+
 
 }
 
@@ -215,6 +214,7 @@ span#web-dev{
     display: flex;
     float: right;
     margin-right: 70px;
+
 }
 
 
@@ -223,6 +223,7 @@ span#itil{
     display: flex;
     float: right;
     margin-right: 70px;
+
 }
 
 
@@ -230,6 +231,7 @@ span#tech{
     display: flex;
     float: right;
     margin-right: 70px;
+
 }
 
 
@@ -237,6 +239,7 @@ span#biz-ana{
     display: flex;
     float: right;
     margin-right: 70px;
+
 }
 
 
@@ -245,6 +248,7 @@ span#sqa{
     display: flex;
     float: right;
     margin-right: 70px;
+
     }
     
 
@@ -254,6 +258,7 @@ span#msj{
 display: flex;
 float: right;
 margin-right: 70px;
+
 }
 
 
@@ -262,6 +267,7 @@ span#top-date {
     display: flex;
     float: right;
     margin-right: 50px;
+
 }
 
 
@@ -271,6 +277,7 @@ span#thrive-dates{
     text-align: right;
     float: right;
     margin-right: 50px;
+
 }
 
 
@@ -279,6 +286,7 @@ span#home-care-dates{
     text-align: right;
     float: right;
     margin-right: 50px;
+
 }
 
 
