@@ -10,6 +10,7 @@ body{
     padding: 0;
 }
 
+
 :root{
     --color-primary: #000000;
     --color-secondary: #ffffff;
@@ -18,6 +19,7 @@ body{
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
+
 
 /* global classes */
 .font-Merriweather{
@@ -141,28 +143,24 @@ div > img {
     height: auto;
     justify-items:baseline;
   }
-  
-   
-
+     
 /* #site-main */
-
 
 .Projects{
 margin-top: 15px;
-
+margin-left: 25px;
 
 }
 
 
 .Education{
 margin: 10 0 10 0;  
- 
+margin-left: 25px; 
 
 }
 
 
 .Experience{
-
 margin: 12 5 10 0px;
 
 }
@@ -294,7 +292,7 @@ span#cincinnati-public{
     display: flex;
     text-align: right;
     float: right;
-    margin-right: 50px;
+    margin-right: 60px;
 
 }
 
@@ -303,7 +301,24 @@ span#hamilton-county{
     display: flex;
     text-align: right;
     float: right;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
+#skills .box {
+    transition: box-shadow .3s;
 
+    float: left;
+    
+  }
+  .box:hover {
+    box-shadow: 0 0 11px red; 
+  }
+
+.hospital{
+  
+ 
+}
+
+span#JFS-Logo{
+  margin-right: 60px;   
+}
