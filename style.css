@@ -1,7 +1,5 @@
 
 
-
-
 /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
@@ -9,7 +7,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
 
 :root{
     --color-primary: #000000;
@@ -19,7 +16,6 @@ body{
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
-
 
 /* global classes */
 .font-Merriweather{
@@ -50,6 +46,15 @@ body{
 
 .bgcolor-primary{
     background-color: var(--color-primary);
+}
+
+h2 {
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #232323;
+    text-transform: uppercase;
 }
 
 /* #global classes */
@@ -106,7 +111,6 @@ body{
     position: relative;
 }
 
-
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
@@ -143,27 +147,117 @@ div > img {
     height: auto;
     justify-items:baseline;
   }
-     
+  
+  
+  
+
 /* #site-main */
+
+/* start of skills section */
+
+/* For your Skills section I gave it some padding on the left and 
+right 8% and on the top and bottom 100px. This makes the flow of 
+the website look less cluttered. You can do this to all your sections as well*/
+
+#skills {
+    padding: 100px 8% 0 8%;
+}
+
+/* here is an idea of how you can do your titles for the different sections */
+/* #skills h2 {
+    text-align: center; 
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 34px;
+    text-decoration: underline; 
+    color: #232323;
+} */
+
+#skills h5 {
+    font-size: 14px; /* made font size a bit smaller */
+}
+/* end of skills section */
+
+
 
 .Projects{
 margin-top: 15px;
-margin-left: 25px;
+padding: 100px 8% 0 8%;
+
 
 }
+/* .Projects h2 {
+    padding-bottom: 40px;
+    text-align: center;
+} */
+.project-names {
+    text-align: center;
+    margin: 25px 0;
+}
+.project-names h3 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.project-names .icons {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 
+    0 6.7px 5.3px rgb(0 0 0 / 5%), 
+    0 12.5px 10px rgb(0 0 0 / 6%), 
+    0 22.3px 17.9px rgb(0 0 0 / 7%), 
+    0 41.8px 33.4px rgb(0 0 0 / 9%), 
+    0 100px 80px rgb(0 0 0 / 12%);
+    margin: 10px;
+}
+
+.project-names .icons:hover {
+    position: relative;
+    bottom: 10px;
+}
+.project-names .description {
+    padding: 30px 0 20px 0;
+}
+
 
 
 .Education{
 margin: 10 0 10 0;  
-margin-left: 25px; 
+padding: 100px 8% 0 8%;
+ 
+
+}
+
+.Education ul {
+    list-style-type: none;
+
+}
+.Education ul li {
+    padding: 10px 0;
 
 }
 
 
-.Experience{
-margin: 12 5 10 0px;
+
+.Experience {
+    padding: 100px 8% 0 8%;
+    margin: 12 5 10 0px;
+
 
 }
+
+.company-year {
+    text-align: center;
+}
+
+.company-year .logo {
+    max-width: 150px !important;
+    max-height: auto !important;
+    width: 100%;
+}
+
+
+
 
 
 .Resume{
@@ -172,6 +266,7 @@ margin-bottom: 10px;
 margin-left: 40px;
 
 }
+
 
 
 .contact{
@@ -184,52 +279,55 @@ text-align: left;
 .card-img-top{
     display: block;
     margin: auto;
-    margin-top: 5%;
-
+    margin-top: 25px; /* changed this to 25px */
 }
-
 
 .card-title{
     text-align: center;
-
 }
 
+/* I changed the height from 150px to 200px and gave the card some padding as well */
 .card{
-    height: 150px;
-
+    height: 200px;
+    padding: 20px;
 }
 
+/* hover effect */
+.card:hover {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
 
 div > style{
 margin-right: 10px;
 
-
 }
 
-
-
-span#web-dev{
+/*** This is the css used to push your years to the right in your education section. 
+You can delete the other css that was used for each one. I commented them out ***/
+.year {
     display: flex;
     float: right;
     margin-right: 70px;
-
 }
 
-
-
-span#itil{
+/* span #web-dev{
     display: flex;
     float: right;
     margin-right: 70px;
+} */
 
-}
 
-
-span#tech{
+/* span#tech{
     display: flex;
     float: right;
     margin-right: 70px;
-
 }
 
 
@@ -237,7 +335,6 @@ span#biz-ana{
     display: flex;
     float: right;
     margin-right: 70px;
-
 }
 
 
@@ -246,18 +343,14 @@ span#sqa{
     display: flex;
     float: right;
     margin-right: 70px;
-
-    }
+}
     
-
-
 
 span#msj{
 display: flex;
 float: right;
 margin-right: 70px;
-
-}
+} */
 
 
 
@@ -265,7 +358,6 @@ span#top-date {
     display: flex;
     float: right;
     margin-right: 50px;
-
 }
 
 
@@ -275,7 +367,6 @@ span#thrive-dates{
     text-align: right;
     float: right;
     margin-right: 50px;
-
 }
 
 
@@ -284,7 +375,6 @@ span#home-care-dates{
     text-align: right;
     float: right;
     margin-right: 50px;
-
 }
 
 
@@ -292,7 +382,7 @@ span#cincinnati-public{
     display: flex;
     text-align: right;
     float: right;
-    margin-right: 60px;
+    margin-right: 50px;
 
 }
 
@@ -301,24 +391,5 @@ span#hamilton-county{
     display: flex;
     text-align: right;
     float: right;
-    margin-right: 60px;
-}
-
-#skills .box {
-    transition: box-shadow .3s;
-
-    float: left;
-    
-  }
-  .box:hover {
-    box-shadow: 0 0 11px red; 
-  }
-
-.hospital{
-  
- 
-}
-
-span#JFS-Logo{
-  margin-right: 60px;   
+    margin-right: 50px;
 }
