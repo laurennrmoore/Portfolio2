@@ -40,7 +40,7 @@ html {
                         <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">projects</a>
                         <a href="#education" class="nav-item nav-link text-white-50 font-os font-size-16 active">education</a>
                         <a href="#experience" class="nav-item nav-link text-white-50 font-os font-size-16 active">Experience</a>
-                        <a href="#resume" class="nav-item nav-link text-white-50 font-os font-size-16 active">Resume</a>
+                        <a href="./imgs/LaurenR._Moore_Resume (2).PDF" class="nav-item nav-link text-white-50 font-os font-size-16 active">Resume</a>
                         <a href="#contact" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact</a>
                     </div>
                 </nav>
@@ -70,7 +70,7 @@ html {
 <!-- start of skills section -->    
 <section id=skills>
     <div class="container">
-        <!-- I added a skills title -->
+       
         <h2>Skills</h2>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 mt-2 d-flex justify-content-center">
@@ -242,7 +242,7 @@ html {
 </section><!-- end of skills section -->
 
 
-<!-----  In the Project and education section I made sure the code is properly nested. Doing this makes it a lot easier for you to read whenever you go in to change something. Also if another developer looks at your code, its easier for them to read as well. ------>
+<!----- Projects & Education-->
 <section class="Projects" id="projects">
     <h2>Projects</h2>   
     <!-- <ul>
@@ -257,26 +257,26 @@ html {
             <div class="project-names col-lg-4 col-md-6">
                 <h3>About Me</h3>
                 <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, dolorum?
+                    An introductory project; baby steps into coding and a basic rendering of one image and text.
                 </p>
-                <a class="icons" href="#"><i class="fab fa-github"></i></a>
-                <a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>
+                <a class="icons" href="https://laurennrmoore.github.io/aboutMe/"><i class="fab fa-github"></i>aboutMe</a>
+        <!--<a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>-->
             </div>
             <div class="project-names col-lg-4 col-md-6">
                 <h3>Mablibs</h3>
                 <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, dolorum?
+                    Madlibs is an exercize where nouns, adjectives, verbs and adjectives are only introduced with the help of code.
                 </p>
-                <a class="icons" href="#"><i class="fab fa-github"></i></a>
-                <a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>
+                <a class="icons" href="https://laurennrmoore.github.io/madLibs/"><i class="fab fa-github"></i>MadLibs</a>
+        <!--<a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>-->
             </div>
             <div class="project-names col-lg-4 col-md-6">
                 <h3>Eats Cafe</h3>
                 <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, dolorum?
+                    A clickable prompts page, featuring a fictitious eatery concept. 
                 </p>
-                <a class="icons" href="#"><i class="fab fa-github"></i></a>
-                <a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>
+                <a class="icons" href="https://laurennrmoore.github.io/newProduct/"><i class="fab fa-github"></i>Eats Cafe</a>
+        <!--<a class="icons" href="#"><i class="fas fa-laptop-code"></i></a>-->
             </div>
         </div>
     </div>
@@ -285,26 +285,21 @@ html {
 
 <section class="Education" id="education">
 
-    <!-- For your main titles instead of using the strong tags, use your h1, h2, h3, etc tags. This is normally what we use for titles and subtitle. If you want to make the font bold, use css to do that. -->
-
-    <!-- <strong><u>Education</u></strong> -->
+       <!-- <strong><u>Education</u></strong> -->
     <h2>Education</h2>
     <ul>
         <li>
-            <!-- If all your spans will get the same styling, instead of giving your span tags different id's give them all the same class name. This will help you not to repeat code. -->
+            <!-- keep as -->
             Web Development Training <span class="year">2021</span>
         </li>
         <li>
             ITIL/ServiceNow Administration <span class="year">2020</span>
         </li>
         <li>
-            Technical Business Analyst Workshop <span class="year">2017</span>
+            Business Analyst Workshop <span class="year">2017</span>
         </li>
         <li>
             Software Quality Analyst Training <span class="year">2016</span>
-        </li>
-        <li>
-            Mount St. Joseph Universtiy <span class="year">2001</span>
         </li>
     </ul>
 </section>
@@ -321,26 +316,39 @@ html {
         </div>
 
         <div class="company-year col-lg-2">
-            <img class="logo" src="/imgs/Itil 2 logo.png" alt="">
+            <img class="logo" src="./imgs/hospital.jpg" alt="CHMC logo">
             <p>2020</p>
         </div>
 
         <div class="company col-lg-10 d-flex">
+            <h4>Thrive Impact Sourcing</h4>
+        </div>
+    
+        <div class="company-year col-lg-2">
+            <img class="logo" src="./imgs/Thrive logo.jpg" alt="Thrive logo">
+            <p>2016-2018</p>
+        </div>
+
+
+    </section>
+    <section class="contact" id="contact">
+    <h2>Contact </h2>
+    <ul>
+    <li><a href="mailto:lmooreintech2020@gmail.com">Send Email</a></li>
+    <li><a href="https://www.linkedin.com/in/lauren-r-m-a233b321/">Connect With Me!</a></li>
+    </ul>
+    </section>
+                        
+                </div>
+            </div>
+        </main>
+        <!--<div class="company col-lg-10 d-flex">
             <h4>Children's Hospital via Crothall Health Care</h4>
         </div>
     
         <div class="company-year col-lg-2">
             <img class="logo" src="/imgs/Itil 2 logo.png" alt="">
-            <p>2020</p>
-        </div>
-
-        <div class="company col-lg-10 d-flex">
-            <h4>Children's Hospital via Crothall Health Care</h4>
-        </div>
-    
-        <div class="company-year col-lg-2">
-            <img class="logo" src="/imgs/Itil 2 logo.png" alt="">
-            <p>2020</p>
+            <p>2020</p>-->
         </div>
     </div>
 </div>
@@ -378,25 +386,14 @@ html {
 
 </li>                                                                 
 
-
- 
 </ul> -->
+
 </section>
-
-
-
-<section class="Resume" id="resume">
-<strong><u>Resume</u></strong>
-</section>
-
-
-
-
 <section class="contact" id="contact">
 <strong><u>Contact Information</u></strong>
 <ul>
-<li>lmooreintech2020@gmail.com</li>
-<li>linkedIn:www.linkedin.com/in/lauren-r-m-a233b321</li>
+<li><a href="mailto:lmooreintech2020@gmail.com">Send Email</a></li>
+<li><a href="https://www.linkedin.com/in/lauren-r-m-a233b321/">Connect With Me!</a></li>
 </ul>
 </section>
                     
